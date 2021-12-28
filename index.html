@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="./script.js"></script>
+    <title>form</title>
+  </head>
+  <body>
+    <div class="main_block">
+      <h2 class="title">анкета</h2>
+      <div id="error"></div>
+      <form action="/" id="form">
+        <div class="row">
+          <div class="col-1">
+            <label for="name">Name:</label>
+          </div>
+          <col-2>
+            <input
+              name="name"
+              class="input"
+              id="name"
+              type="text"
+              placeholder="Имя"
+            />
+          </col-2>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input
+            name="email"
+            class="input"
+            id="email"
+            type="email"
+            placeholder="email"
+          />
+        </div>
+        <div>
+          <label for="phone">Phone number:</label>
+          <input
+            name="phone"
+            class="input"
+            id="phone"
+            type="text"
+            placeholder="телефон"
+          />
+        </div>
+        <div>
+          <label for="year">Year:</label>
+          <input
+            name="year"
+            class="input"
+            id="year"
+            type="text"
+            placeholder="Год рождения"
+          />
+        </div>
+        <input class="input" id="img-input" type="file" />
+        <div class="btn_block">
+          <button type="submit" class="btn">создать</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="resume">
+      <div class="div">
+        <img src="" class="img" />
+      </div>
+      <div class="resume_content"></div>
+    </div>
+  </body>
+</html>
